@@ -18,9 +18,11 @@ class App extends React.Component {
               <ChatWindow className="col-6" />
             </div>
           </div>
+          <div className="row">
+            <MessageBar />
+          </div>
         </div>
-        <hr></hr>
-        <MessageBar />
+
 
       </div>
     );
