@@ -11,11 +11,11 @@ class App extends React.Component {
       <div className="App">
         <div className="container-fluid" id="UserChatBlock">
           <div className="row justify-content-around">
-            <div>
-              <UserList className="col-4" />
+            <div className="col-4" >
+              <UserList />
             </div>
-            <div>
-              <ChatWindow className="col-6" />
+            <div className="col-6">
+              <ChatWindow />
             </div>
           </div>
           <div className="row">
